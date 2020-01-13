@@ -9,7 +9,7 @@
 
 3. Enter a term on the start page.
 
-![Giphy App Demo](https://media.giphy.com/media/Pjx8Ct4vGjzlhJl0yD/giphy.gif)
+                   ![Giphy App Demo](https://media.giphy.com/media/Pjx8Ct4vGjzlhJl0yD/giphy.gif)
 
 
 4. Select a Giphy to add to your Favorites!
