@@ -1,0 +1,48 @@
+.gif-container{
+
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 20px;
+    -webkit-column-count: 3; /* Old Chrome, Safari and Opera */
+     -moz-column-count: 3; /* Old Firefox */
+    column-count: 3;
+    column-gap: 5px;
+    
+
+    .gif{
+        height:10%;
+        margin: 5px 0;
+        img{
+            width: 100%;
+        }
+      }
+}
+
+
+.selected{
+    border: 2px solid rgb(217, 204, 240);
+}
+
+.gif-column{
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+.favorite-container{
+ display: block;
+ column-count: 1;
+}
+
+@media screen and (min-width: 480px) {
+ .gif-container{
+    .gif{      
+        margin: 0px 10px;
+        img{
+            width:80%;
+        }
+    }
+
+
+ } 
+  }
