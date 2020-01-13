@@ -16,8 +16,8 @@
 
 5. Click on Favorites on the top right to see your favorites.
 
-This is fully accessible by keyboard:
- > tab to search
- > enter to launch search
- > Up Arrow to switch to favorites
+ ## This is fully accessible by keyboard:
+ # tab to search
+ # enter to launch search
+ # Up Arrow to switch to favorites
 
