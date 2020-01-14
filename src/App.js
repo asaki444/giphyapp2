@@ -12,6 +12,9 @@ class App extends React.Component {
        favorites: [],
        showSearch: true
     };
+
+    this.searchInput = React.createRef();
+    this.searchButton = React.createRef();
   }
  
 
