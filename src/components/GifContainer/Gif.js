@@ -1,12 +1,11 @@
 import React from 'react';
 
- class Gif extends React.Component {
-    constructor(props) {
-        super(props);
+function Gif (props){
+
         this.state = {
           selected: false
         };
-      }
+      
   
     handleClick = (event) => {
           event.preventDefault();
@@ -16,20 +15,20 @@ import React from 'react';
       })  
     }
 
-  render(){
+
     const{
       image, 
       gifs,
       alt_text,
       index
-    } = this.props;
+    } = props;
 
     return (
         <div tabindex={`${index}`} className="gif" onClick={this.handleClick}>
            <img alt={alt_text} src={image} className={ gifs && this.state.selected ?  "selected" : ""}  />
         </div>
       );
-  }
+  
  
 }
 
