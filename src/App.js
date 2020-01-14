@@ -35,7 +35,7 @@ class App extends React.Component {
         }
         break;
       default:
-        console.log('keys pressed');
+  
     }
 
 
