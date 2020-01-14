@@ -10,7 +10,7 @@ function Favorites (props)  {
           Your Favorite Gifs
         </h1>
       <div className="gif-container favorite-container">
-        {favorites.map((img,i)=> <Gif index={`${i}`} alt_text={`gif-fav-image-${i}`} image={img} favorites={favorites} />)}
+        {favorites.map((img,i)=> <Gif index={`${img}`} alt_text={`gif-fav-image-${i}`} image={img} favorites={favorites} />)}
         {favorites.length === 0 && <>Oh nos, no favorites! Go back to search</>}
       </div>
     </>
