@@ -13,8 +13,6 @@ class App extends React.Component {
        showSearch: true
     };
 
-    this.searchInput = React.createRef();
-    this.searchButton = React.createRef();
   }
  
 
@@ -51,12 +49,13 @@ class App extends React.Component {
 
   render() {
     const {showSearch, favorites} = this.state;
+    const {searchInput, searchButton} = React.createRef()
     
       return (
         <div className="App">
           <div className="App-header">
             <FavoriteButton toggleText={this.toggleText} showSearch={showSearch}/>
-          {showSearch ? <Search favorites={favorites}/> : <Favorites showSearch = {showSearch} favorites={favorites}/> }
+          {showSearch ? <Search ref={searchInput} favorites={favorites}/> : <Favorites ref={searchButton} showSearch = {showSearch} favorites={favorites}/> }
           
           </div>   
         </div>
